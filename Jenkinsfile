@@ -2,7 +2,7 @@ node('master')
 {
     stage('ContinuousDownload')
     {
-        git 'https://github.com/NanaGabby1/Push_Project.git'
+        git 'https://github.com/NanaGabby1/Maven_Project2.git'
     }
     stage('ContinuousBuild')
     {
